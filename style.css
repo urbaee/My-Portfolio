@@ -3,6 +3,10 @@
     color: #ffd881;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -20,8 +24,10 @@ body{
     width: 340px; height: 500px; border-radius: 50%; margin-top: 5%; border: 5px solid black;
 }
 
-html {
-    scroll-behavior: smooth;
+.text-first::after {
+    content: "Let's get into it!";
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 a {
