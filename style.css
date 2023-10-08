@@ -25,7 +25,7 @@ body{
 }
 
 .text-first::after {
-    content: "Let's get into it!";
+    content: "Let's dive deeper!";
     font-size: xx-large;
     font-weight: bold;
 }
